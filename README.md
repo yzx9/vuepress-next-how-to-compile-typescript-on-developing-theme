@@ -1,16 +1,17 @@
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=nsznsznjsz&bg_color=30,373b44,4286f4&title_color=5bffff&text_color=b2ffff&show_icons=true&icon_color=b2ffff)](https://github.com/anuraghazra/github-readme-stats)
+# Question
 
-<!--
-**nsznsznjsz/nsznsznjsz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[Question Here](https://github.com/vuepress/vuepress-next/discussions/40)
 
-Here are some ideas to get you started:
+Steps:
+```bash
+git clone git@github.com:nsznsznjsz/vuepress-next-question.git
+cd vuepress-next-question
+npm install
+npm run dev
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Open `http://localhost:8080/` in your browser.
+
+We can see a vuepress website with default theme, and only a green box (3 boxs actually).
+
+However, I have changed the theme [here](https://github.com/nsznsznjsz/vuepress-next-question/blob/main/src/.vuepress/config.ts#L12), but it doesn't seem to work.
