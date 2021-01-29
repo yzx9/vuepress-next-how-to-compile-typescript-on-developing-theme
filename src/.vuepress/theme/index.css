@@ -1,0 +1,7 @@
+.red-box {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 1px solid red;
+}

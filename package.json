@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Celeste's personal website",
+  "main": "index.js",
+  "author": "Celeste <yuan.zx@outlook.com>",
+  "keywords": [],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "serve": "vuepress serve src"
+  },
+  "dependencies": {
+    "vuepress": "^2.0.0-alpha.19"
+  }
+}
