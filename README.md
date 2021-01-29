@@ -10,8 +10,6 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:8080/` in your browser.
+Then, open `http://localhost:8080/` in your browser. We can see a vuepress website and only green box (3 boxs actually).
 
-We can see a vuepress website with default theme, and only a green box (3 boxs actually).
-
-However, I have changed the theme [here](https://github.com/nsznsznjsz/vuepress-next-question/blob/main/src/.vuepress/config.ts#L12), but it doesn't seem to work.
+However, red box (with index.css) and yellow box (with componment) didn't show up, I guess `clientAppEnhence.ts` does not compile to js, how can I got it? 
